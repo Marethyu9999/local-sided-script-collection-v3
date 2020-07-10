@@ -1,0 +1,16 @@
+local Plugin = {
+    ["name_that_dont_shows"] = "name_that_shows_for_everyone",
+    ["PluginDescription"] = "DESCRIPTION_HERE",
+    ["Commands"] = {
+        ["COMMANDNAME"] = {
+            ["ListName"] = "COMMANDNAME [ARGUMENT1]",
+            ["Description"] = "DESCRIPTION_HERE",
+            ["Aliases"] = {"ALIAS1","ALIAS2","ALIAS3"},
+            ["Function"] = function(args,speaker)
+                --Code_here
+            end
+        }
+     }
+}
+
+return Plugin

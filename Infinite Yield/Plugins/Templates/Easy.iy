@@ -1,0 +1,6 @@
+local PluginAPI = loadstring(game:HttpGet("https://pastebin.com/raw/u7HEbm8q"))()
+local Plugin = PluginAPI:CreatePlugin("plugin_name", "made by Marethyu#0181")
+Plugin.Functions:AddCommand("the_shown_name", "the_command_to_type",  "the_command_describtion", {"alias"}, function(args,speaker) 
+    notify("Code in this row")
+end)
+return Plugin.PluginTable
